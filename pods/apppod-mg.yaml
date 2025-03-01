@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: apppod-mg13
+  name: apppod-mg
 spec:
   containers:
-    - name: app
+    - name: apppod-mg
       image: <insert-apppod-link>
       ports:
         - containerPort: 8080

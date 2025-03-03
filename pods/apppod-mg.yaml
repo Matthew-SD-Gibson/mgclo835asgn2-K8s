@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: apppod-mg
-      image: <insert-apppod-link>
+      image: 179267739179.dkr.ecr.us-east-1.amazonaws.com/mgibson13-asgn2-repository:my_app
       ports:
         - containerPort: 8080
       env:
@@ -16,7 +16,7 @@ spec:
         - name: DBPWD
           value: "passwors"
         - name: APP_COLOR
-          value: "blue"
+          value: "lime"
         - name: DBHOST
           value: "10.244.0.5"
         - name: DBPORT
